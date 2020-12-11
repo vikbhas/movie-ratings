@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+:root {
+  --light-red: #fca5a5;
+  --light-yellow: #fde68a;
+  --light-green: #a7f3d0;
+}
+
+body {
+  background-image: radial-gradient(
+    circle,
+    var(--light-red),
+    var(--light-green)
+  );
+  font-family: "Merriweather", serif;
+}
+
+.App {
+  text-align: center;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  cursor: copy;
+}
+
+#list-movie-rating {
+  padding: 1rem;
+  border: 1px dotted black;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
+
+#list-movie {
+  cursor: crosshair;
+  background: #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+  font-family: "Merriweather", serif;
+}
+
+#imdb-desc {
+  font-size: medium;
+}
